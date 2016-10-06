@@ -4,7 +4,7 @@ Tomorrow Finance provides api access to selected organisations for integration w
 
 ## Request & Response
 
-For V1 of the api, all current requests are made via posts. Authentication tokens are handled via the request header (not POST data).
+For V1 of the api, all current requests are made via `POST`. Authentication tokens (see below) are handled via the request header (not POST data).
 
 All requests should be made to `https://www.tomorrowfinance.com.au/api/v1/{endpoint}`.
 
@@ -37,10 +37,10 @@ curl --header "X-API-Token: {token}" --data "param=value" https://www.tomorrowfi
 
 This will generate a tempoary SSO token that will be valid for 5 minutes.
 
-ENDPOINT: user/authenticate
-PARAMS: 
-- clientId: the client id of the USER (not the `API` client id)
-- clientSecret: the client id of the USER (not the `API` client secret)
+**ENDPOINT**: user/authenticate  
+**PARAMS**: 
+- **clientId**: the client id of the USER (not the `API` client id)
+- **clientSecret**: the client id of the USER (not the `API` client secret)
 
 The client id/secret for each user that has SSO will be manually provided to you (for security reasons). You'll need to contact tomorrow finance to gain this information.
 

@@ -2,6 +2,8 @@
 
 Tomorrow Finance provides api access to selected organisations for integration with data & functionality that our platform provides.
 
+Updated documentation and mock server located on APIARY http://docs.tomorrowfinance.apiary.io/
+
 ## Request & Response
 
 For V1 of the api, all current requests are made via `POST`. Authentication tokens (see below) are handled via the request header (not POST data).

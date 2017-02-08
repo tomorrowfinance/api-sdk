@@ -43,7 +43,7 @@ This will generate a temporary SSO token that will be valid for 5 minutes.
 **ENDPOINT**: user/authenticate  
 **PARAMS**: 
 - **clientId**: the client id of the USER (not the `API` client id)
-- **clientSecret**: the client id of the USER (not the `API` client secret)
+- **clientSecret**: the client secret of the USER (not the `API` client secret)
 
 The client id/secret for each user that has SSO will be manually provided to you (for security reasons). You'll need to contact Tomorrow Finance to gain this information.
 

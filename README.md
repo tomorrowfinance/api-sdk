@@ -1,8 +1,8 @@
+> Updated documentation and mock server located on APIARY http://docs.tomorrowfinance.apiary.io/ 
+
 # api-sdk
 
 Tomorrow Finance provides api access to selected organisations for integration with data & functionality that our platform provides.
-
-Updated documentation and mock server located on APIARY http://docs.tomorrowfinance.apiary.io/
 
 ## Request & Response
 
@@ -36,7 +36,8 @@ curl --header "X-API-Token: {token}" --data "param=value" https://www.tomorrowfi
 
 ### Single Sign On
 
-![sso process](api single sign on.png)
+![sso processt](api-single-sign-on.png)
+
 
 This will generate a temporary SSO token that will be valid for 5 minutes.
 
